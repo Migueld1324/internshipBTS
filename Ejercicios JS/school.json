@@ -1,0 +1,91 @@
+var school = {
+  "_id": "57c07713b2ae3737d80982bf",
+  "index": 0,
+  "schoolName": "ENQUILITY",
+  "phone": "+1 (824) 447-2294",
+  "address": "995 Windsor Place, Nescatunga, Missouri, 6760",
+  "students": [
+    {
+      "_id": "57c0771388d59eff36761297",
+      "name": {"first": "Hartman", "last": "Mathis"},
+      "isActive": false,
+      "age": 21,
+      "eyeColor": "blue",
+      "email": "hartman.mathis@ersum.ca",
+      "phone": "+1 (992) 577-2961",
+      "address": "675 John Street, Springhill, Federated States Of Micronesia, 6453",
+      "favoriteFruit": "banana",
+      "courses": [{"name": "CSS", "grade": 7 }, {"name": "PHP", "grade": 5 } ],
+      "friends": [
+        {"id": 0, "name": "Tami Rice"},
+        {"id": 1, "name": "Reid Prince"},
+        {"id": 2, "name": "Francesca Rich"},
+        {"id": 3, "name": "Francis Calhoun"}
+      ]
+    },
+    {
+      "_id": "57c077139f4e2defe46de69f",
+      "name": {"first": "Bonnie", "last": "Nguyen"},
+      "isActive": false,
+      "age": 21,
+      "eyeColor": "black",
+      "email": "bonnie.nguyen@aquazure.co.uk",
+      "phone": "+1 (924) 536-3380",
+      "address": "730 Hastings Street, Choctaw, Kansas, 1673",
+      "favoriteFruit": "apple",
+      "courses": [{"name": "HTML", "grade": 8 }, {"name": "PHP", "grade": 8 } ],
+      "friends": [{"id": 0, "name": "Norman Britt"} ]
+    },
+    {
+      "_id": "57c077139c5cd2f0770a2190",
+      "name": {"first": "Caldwell", "last": "Petersen"},
+      "isActive": true,
+      "age": 20,
+      "eyeColor": "brown",
+      "email": "caldwell.petersen@skybold.me",
+      "phone": "+1 (863) 434-3420",
+      "address": "957 Lloyd Court, Fostoria, Alabama, 3599",
+      "favoriteFruit": "orange",
+      "courses": [{"name": "HTML", "grade": 8 }, {"name": "Java", "grade": 6 } ],
+      "friends": [{"id": 0, "name": "Clara Valdez"} ]
+    },
+    {
+      "_id": "57c07713be56e63be5604547",
+      "name": {"first": "Frieda", "last": "House"},
+      "isActive": false,
+      "age": 21,
+      "eyeColor": "blue",
+      "email": "frieda.house@digique.com",
+      "phone": "+1 (950) 439-3635",
+      "address": "640 Greene Avenue, Riner, South Carolina, 7666",
+      "favoriteFruit": "orange",
+      "courses": [{"name": "Javascript", "grade": 10 }, {"name": "Ruby", "grade": 10 } ],
+      "friends": [
+        {"id": 0, "name": "Tillman Houston"},
+        {"id": 1, "name": "Casey Coleman"},
+        {"id": 2, "name": "Tricia Battle"},
+        {"id": 3, "name": "Jennifer Forbes"},
+        {"id": 4, "name": "Morgan Hansen"}
+      ]
+    },
+    {
+      "_id": "57c07713d7f4abd86e49df4e",
+      "name": {"first": "Meagan", "last": "Vinson"},
+      "isActive": true,
+      "age": 21,
+      "eyeColor": "blue",
+      "email": "meagan.vinson@earbang.name",
+      "phone": "+1 (912) 592-2459",
+      "address": "903 Woodhull Street, Hackneyville, Iowa, 9330",
+      "favoriteFruit": "banana",
+      "courses": [{"name": "Javascript", "grade": 6 }, {"name": "PHP", "grade": 5 } ],
+      "friends": [
+        {"id": 0, "name": "Vivian Rose"},
+        {"id": 1, "name": "Terry Odonnell"},
+        {"id": 2, "name": "Burt Duke"},
+        {"id": 3, "name": "Vanessa Ratliff"},
+        {"id": 4, "name": "Gutierrez Frank"}
+      ]
+    }
+  ]
+};
