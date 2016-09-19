@@ -66,6 +66,6 @@ function didSomeoneWon(matrix){
 	return flag;
 }
 
-console.log(didSomeoneWon([['o','o','o'],
+console.log(didSomeoneWon([['o','x','o'],
 						   ['x','o','x'],
-						   ['x','o','o']]));
+						   ['x','o','x']]));

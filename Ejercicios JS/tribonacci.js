@@ -31,7 +31,7 @@ function tribonacci (arr, num){
 		arr = []
 		return arr;
 	}
-	if(num < arr.length){
+	if(num <= arr.length){
 		for(let i = 0; i < num; i++){
 			arrRes[i] = arr[i];
 		}
@@ -50,3 +50,4 @@ function tribonacci (arr, num){
 	}
 }
 console.log(tribonacci([0,0,0],4));
+console.log(tribonacci([1,2,3],3));

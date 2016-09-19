@@ -12,14 +12,16 @@ function convertMatrix(matrix){
 		}
 	}
 	for(let i = 0; i < indexA.length; i++){
-		for(let j = 0; j < matRes[i].length; j++){
-				matRes[indexA[i]][j] = 0;
+		for(let j = 0; j < matRes.length; j++){
 			for(let k = 0; k < matRes.length; k++){
+				matRes[indexA[i]][k] = 0;
 				matRes[k][indexB[i]] = 0;
 			}
 		}
 	}
 	return matRes;
 }
-console.log(convertMatrix([[1,2,0]]));
-console.log(convertMatrix([[1,2,3,1],[4,0,6,1],[7,8,9,0],[1,2,3,3]]));
+
+console.log(convertMatrix([[1,2,3],
+						   [4,0,6],
+						   [7,8,9]]));

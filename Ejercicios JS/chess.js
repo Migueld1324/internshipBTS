@@ -10,15 +10,16 @@ function chess (n){
                   ban = true;
                 }
             }
-            }
+            str += '\n'; 
+        }
         if(ban === true){
-            str += "O ";
+            str += "1 ";
             ban = false;
         } else {
-            str += "I ";
+            str += "0 ";
             ban = true;
         }
     }
-    return str;
+    return str;     
 }
-console.log(chess(500));
+console.log(chess(33));
