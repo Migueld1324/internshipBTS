@@ -1,16 +1,16 @@
 "use strict"
 function createCalculator(n){
-	function innerSuma (x){
-		return n + x;
+	function innerSuma (number){
+		return number + n;
 	}
-	function innerResta (x){
-		return n - x;
+	function innerResta (number){
+		return number - n;
 	}
-	function innerMultiplicacion (x){
-		return n * x;
+	function innerMultiplicacion (number){
+		return number * n;
 	}
-	function innerDivision (x){
-		return n / x;
+	function innerDivision (number){
+		return number / n;
 	}
 	return {
 			suma: innerSuma,
