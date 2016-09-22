@@ -17,10 +17,10 @@ counter will be increasing by the second parameter */
 console.log(incrementByTime(0, 3, 5));
 */
 function foo (valImp){
-		setTimeout(function (){
-			console.log(valImp + 1);
-		}, (valImp + 1) * 1000);
-	}
+	setTimeout(function (){
+		console.log(valImp + 1);
+	}, (valImp + 1) * 1000);
+}
 for(var i = 0; i < 5; i++){
 	foo(i);
 }
